@@ -1,0 +1,59 @@
+body {
+   user-select: none;
+}
+
+.infinity-slider-wrapper {
+   margin: 50px auto;
+   width: 1000px;
+   height: 500px;
+}
+
+.infinity-slider-block {
+   width: 700px;
+   height: 500px;
+   border: 1px solid #000000;
+   position: relative;
+   margin: auto;
+}
+
+.infinity-slider {
+   overflow: hidden;
+   position: absolute;
+   width: 700px;
+   height: 500px;
+}
+
+.infinity-slider img {
+   width: 700px;
+   height: 500px;
+   position: absolute;
+   transition: all ease .5s;
+   /* opacity: 1; */
+}
+
+.opacity0 {
+   opacity: 0;
+}
+
+.btn-back {
+   background-image: url('./img/btn-left.png');
+   background-size: contain;
+   height: 64px;
+   width: 64px;
+   align-items: center;
+   display: inline-flex;
+   position: absolute;
+   cursor: pointer;
+}
+
+.btn-next {
+   background-image: url('./img/btn-right.png');
+   background-size: contain;
+   height: 64px;
+   width: 64px;
+   margin: auto 0px;
+   display: inline-block;
+   position: absolute;
+   overflow: hidden;
+   cursor: pointer;
+}
